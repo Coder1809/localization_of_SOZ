@@ -1,0 +1,294 @@
+{
+  "subject_id": "sub-HUP180",
+  "task": "ictal",
+  "filename": "sub-HUP180_ses-presurgery_task-ictal_acq-seeg_run-01_ieeg.edf",
+  "seizure_onset_zone": {
+    "ground_truth_count": 8,
+    "ground_truth_contacts": [
+      "LC11",
+      "LE04",
+      "LF01",
+      "LF02",
+      "LF03",
+      "LF11",
+      "LG07",
+      "LH06"
+    ],
+    "predicted_count": 49,
+    "predicted_contacts": [
+      "LA02",
+      "LA05",
+      "LA08",
+      "LA09",
+      "LB09",
+      "LB10",
+      "LC01",
+      "LC02",
+      "LC06",
+      "LC07",
+      "LC08",
+      "LC09",
+      "LC12",
+      "LD02",
+      "LD03",
+      "LD04",
+      "LD05",
+      "LD07",
+      "LD08",
+      "LD09",
+      "LD10",
+      "LD12",
+      "LE01",
+      "LE02",
+      "LE03",
+      "LE05",
+      "LE08",
+      "LF01",
+      "LF02",
+      "LF03",
+      "LF09",
+      "LF11",
+      "LG02",
+      "LG05",
+      "LG06",
+      "LG07",
+      "LG09",
+      "LH02",
+      "LH03",
+      "LH04",
+      "LH06",
+      "LH08",
+      "LH09",
+      "LH10",
+      "LH11",
+      "RD06",
+      "RE04",
+      "RE10",
+      "RE11"
+    ],
+    "true_positives (correct SOZ)": [
+      "LF01",
+      "LF02",
+      "LF03",
+      "LF11",
+      "LG07",
+      "LH06"
+    ],
+    "false_positives (false alarms)": [
+      "LA02",
+      "LA05",
+      "LA08",
+      "LA09",
+      "LB09",
+      "LB10",
+      "LC01",
+      "LC02",
+      "LC06",
+      "LC07",
+      "LC08",
+      "LC09",
+      "LC12",
+      "LD02",
+      "LD03",
+      "LD04",
+      "LD05",
+      "LD07",
+      "LD08",
+      "LD09",
+      "LD10",
+      "LD12",
+      "LE01",
+      "LE02",
+      "LE03",
+      "LE05",
+      "LE08",
+      "LF09",
+      "LG02",
+      "LG05",
+      "LG06",
+      "LG09",
+      "LH02",
+      "LH03",
+      "LH04",
+      "LH08",
+      "LH09",
+      "LH10",
+      "LH11",
+      "RD06",
+      "RE04",
+      "RE10",
+      "RE11"
+    ],
+    "false_negatives (missed SOZ)": [
+      "LC11",
+      "LE04"
+    ],
+    "shaft_breakdown": {
+      "LA": {
+        "total": 10,
+        "gt_soz": [],
+        "pred_soz": [
+          "LA02",
+          "LA05",
+          "LA08",
+          "LA09"
+        ],
+        "resected": []
+      },
+      "LB": {
+        "total": 10,
+        "gt_soz": [],
+        "pred_soz": [
+          "LB09",
+          "LB10"
+        ],
+        "resected": []
+      },
+      "LC": {
+        "total": 12,
+        "gt_soz": [
+          "LC11"
+        ],
+        "pred_soz": [
+          "LC01",
+          "LC02",
+          "LC06",
+          "LC07",
+          "LC08",
+          "LC09",
+          "LC12"
+        ],
+        "resected": []
+      },
+      "LD": {
+        "total": 12,
+        "gt_soz": [],
+        "pred_soz": [
+          "LD02",
+          "LD03",
+          "LD04",
+          "LD05",
+          "LD07",
+          "LD08",
+          "LD09",
+          "LD10",
+          "LD12"
+        ],
+        "resected": [
+          "LD01",
+          "LD02"
+        ]
+      },
+      "LE": {
+        "total": 11,
+        "gt_soz": [
+          "LE04"
+        ],
+        "pred_soz": [
+          "LE01",
+          "LE02",
+          "LE03",
+          "LE05",
+          "LE08"
+        ],
+        "resected": []
+      },
+      "LF": {
+        "total": 12,
+        "gt_soz": [
+          "LF01",
+          "LF02",
+          "LF03",
+          "LF11"
+        ],
+        "pred_soz": [
+          "LF01",
+          "LF02",
+          "LF03",
+          "LF09",
+          "LF11"
+        ],
+        "resected": [
+          "LF01",
+          "LF02",
+          "LF03"
+        ]
+      },
+      "LG": {
+        "total": 12,
+        "gt_soz": [
+          "LG07"
+        ],
+        "pred_soz": [
+          "LG02",
+          "LG05",
+          "LG06",
+          "LG07",
+          "LG09"
+        ],
+        "resected": []
+      },
+      "LH": {
+        "total": 12,
+        "gt_soz": [
+          "LH06"
+        ],
+        "pred_soz": [
+          "LH02",
+          "LH03",
+          "LH04",
+          "LH06",
+          "LH08",
+          "LH09",
+          "LH10",
+          "LH11"
+        ],
+        "resected": []
+      },
+      "RD": {
+        "total": 8,
+        "gt_soz": [],
+        "pred_soz": [
+          "RD06"
+        ],
+        "resected": []
+      },
+      "RE": {
+        "total": 12,
+        "gt_soz": [],
+        "pred_soz": [
+          "RE04",
+          "RE10",
+          "RE11"
+        ],
+        "resected": []
+      }
+    }
+  },
+  "epileptogenic_zone_and_resection": {
+    "anatomical_target": "FRONTAL",
+    "therapy_type": "ABLATION",
+    "surgical_outcome": "Seizure-Free (Success)",
+    "resected_contacts_count": 5,
+    "resected_contacts": [
+      "LD01",
+      "LD02",
+      "LF01",
+      "LF02",
+      "LF03"
+    ],
+    "predicted_soz_within_resection": [
+      "LD02",
+      "LF01",
+      "LF02",
+      "LF03"
+    ],
+    "resection_overlap_percentage": 8.16
+  },
+  "seizure_onset_timing": {
+    "has_seizure_events": true,
+    "seizure_onset_sec": 120.0,
+    "seizure_offset_sec": 166.998046875,
+    "seizure_duration_sec": 47.0
+  }
+}

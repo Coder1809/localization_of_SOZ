@@ -1,0 +1,56 @@
+# =============================================================================
+# Git Ignore Rules for Localization of Seizure Onset Zone (SOZ)
+# =============================================================================
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# CRITICAL: Large Clinical SEEG Datasets (13 GB raw OpenNeuro ds004100)
+ds004100-*/
+ds004100/
+*.edf
+*.eeg
+*.vhdr
+*.vmrk
+*.fif
+*.bdf
+*.mat
+data/
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE & Editor Settings
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary & Working Scratch Dirs
+task_work/
+scratch/
+tmp/
+*.tmp
+*.bak
+*.swp

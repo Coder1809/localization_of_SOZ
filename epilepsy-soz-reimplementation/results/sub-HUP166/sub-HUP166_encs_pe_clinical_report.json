@@ -1,0 +1,443 @@
+{
+  "subject_id": "sub-HUP166",
+  "task": "ictal",
+  "filename": "sub-HUP166_ses-presurgery_task-ictal_acq-seeg_run-01_ieeg.edf",
+  "seizure_onset_zone": {
+    "ground_truth_count": 5,
+    "ground_truth_contacts": [
+      "LJ1",
+      "LJ2",
+      "LJ3",
+      "LJ4",
+      "LJ5"
+    ],
+    "predicted_count": 80,
+    "predicted_contacts": [
+      "LA7",
+      "LB0",
+      "LB11",
+      "LB8",
+      "LC8",
+      "LC9",
+      "LD1",
+      "LD2",
+      "LD3",
+      "LD4",
+      "LD5",
+      "LD6",
+      "LD7",
+      "LE1",
+      "LE11",
+      "LE2",
+      "LE3",
+      "LE4",
+      "LE5",
+      "LE9",
+      "LF1",
+      "LF4",
+      "LF6",
+      "LF7",
+      "LG1",
+      "LG10",
+      "LG11",
+      "LG2",
+      "LH1",
+      "LH12",
+      "LH3",
+      "LH5",
+      "LH6",
+      "LH7",
+      "LH8",
+      "LH9",
+      "LI3",
+      "LI5",
+      "LJ4",
+      "LJ5",
+      "LJ7",
+      "LJ8",
+      "LJ9",
+      "LK1",
+      "LK10",
+      "LK11",
+      "LK3",
+      "LK5",
+      "LK6",
+      "LK7",
+      "LK8",
+      "LK9",
+      "LL2",
+      "LL3",
+      "LL4",
+      "LL5",
+      "LL6",
+      "LL7",
+      "LL8",
+      "LM1",
+      "LM10",
+      "LM11",
+      "LM12",
+      "LM2",
+      "LM3",
+      "LM4",
+      "LM5",
+      "LM6",
+      "LM7",
+      "RA10",
+      "RA11",
+      "RA4",
+      "RA7",
+      "RA8",
+      "RB1",
+      "RB7",
+      "RB8",
+      "RC1",
+      "RC3",
+      "RC6"
+    ],
+    "true_positives (correct SOZ)": [
+      "LJ4",
+      "LJ5"
+    ],
+    "false_positives (false alarms)": [
+      "LA7",
+      "LB0",
+      "LB11",
+      "LB8",
+      "LC8",
+      "LC9",
+      "LD1",
+      "LD2",
+      "LD3",
+      "LD4",
+      "LD5",
+      "LD6",
+      "LD7",
+      "LE1",
+      "LE11",
+      "LE2",
+      "LE3",
+      "LE4",
+      "LE5",
+      "LE9",
+      "LF1",
+      "LF4",
+      "LF6",
+      "LF7",
+      "LG1",
+      "LG10",
+      "LG11",
+      "LG2",
+      "LH1",
+      "LH12",
+      "LH3",
+      "LH5",
+      "LH6",
+      "LH7",
+      "LH8",
+      "LH9",
+      "LI3",
+      "LI5",
+      "LJ7",
+      "LJ8",
+      "LJ9",
+      "LK1",
+      "LK10",
+      "LK11",
+      "LK3",
+      "LK5",
+      "LK6",
+      "LK7",
+      "LK8",
+      "LK9",
+      "LL2",
+      "LL3",
+      "LL4",
+      "LL5",
+      "LL6",
+      "LL7",
+      "LL8",
+      "LM1",
+      "LM10",
+      "LM11",
+      "LM12",
+      "LM2",
+      "LM3",
+      "LM4",
+      "LM5",
+      "LM6",
+      "LM7",
+      "RA10",
+      "RA11",
+      "RA4",
+      "RA7",
+      "RA8",
+      "RB1",
+      "RB7",
+      "RB8",
+      "RC1",
+      "RC3",
+      "RC6"
+    ],
+    "false_negatives (missed SOZ)": [
+      "LJ1",
+      "LJ2",
+      "LJ3"
+    ],
+    "shaft_breakdown": {
+      "LA": {
+        "total": 11,
+        "gt_soz": [],
+        "pred_soz": [
+          "LA7"
+        ],
+        "resected": [
+          "LA1",
+          "LA2",
+          "LA3",
+          "LA4",
+          "LA5",
+          "LA6",
+          "LA7"
+        ]
+      },
+      "LB": {
+        "total": 12,
+        "gt_soz": [],
+        "pred_soz": [
+          "LB0",
+          "LB11",
+          "LB8"
+        ],
+        "resected": [
+          "LB0",
+          "LB2"
+        ]
+      },
+      "LC": {
+        "total": 11,
+        "gt_soz": [],
+        "pred_soz": [
+          "LC8",
+          "LC9"
+        ],
+        "resected": []
+      },
+      "LD": {
+        "total": 8,
+        "gt_soz": [],
+        "pred_soz": [
+          "LD1",
+          "LD2",
+          "LD3",
+          "LD4",
+          "LD5",
+          "LD6",
+          "LD7"
+        ],
+        "resected": []
+      },
+      "LE": {
+        "total": 12,
+        "gt_soz": [],
+        "pred_soz": [
+          "LE1",
+          "LE11",
+          "LE2",
+          "LE3",
+          "LE4",
+          "LE5",
+          "LE9"
+        ],
+        "resected": [
+          "LE3",
+          "LE4",
+          "LE5",
+          "LE6",
+          "LE8",
+          "LE9"
+        ]
+      },
+      "LF": {
+        "total": 7,
+        "gt_soz": [],
+        "pred_soz": [
+          "LF1",
+          "LF4",
+          "LF6",
+          "LF7"
+        ],
+        "resected": []
+      },
+      "LG": {
+        "total": 12,
+        "gt_soz": [],
+        "pred_soz": [
+          "LG1",
+          "LG10",
+          "LG11",
+          "LG2"
+        ],
+        "resected": []
+      },
+      "LH": {
+        "total": 11,
+        "gt_soz": [],
+        "pred_soz": [
+          "LH1",
+          "LH12",
+          "LH3",
+          "LH5",
+          "LH6",
+          "LH7",
+          "LH8",
+          "LH9"
+        ],
+        "resected": []
+      },
+      "LI": {
+        "total": 8,
+        "gt_soz": [],
+        "pred_soz": [
+          "LI3",
+          "LI5"
+        ],
+        "resected": []
+      },
+      "LJ": {
+        "total": 12,
+        "gt_soz": [
+          "LJ1",
+          "LJ2",
+          "LJ3",
+          "LJ4",
+          "LJ5"
+        ],
+        "pred_soz": [
+          "LJ4",
+          "LJ5",
+          "LJ7",
+          "LJ8",
+          "LJ9"
+        ],
+        "resected": []
+      },
+      "LK": {
+        "total": 12,
+        "gt_soz": [],
+        "pred_soz": [
+          "LK1",
+          "LK10",
+          "LK11",
+          "LK3",
+          "LK5",
+          "LK6",
+          "LK7",
+          "LK8",
+          "LK9"
+        ],
+        "resected": []
+      },
+      "LL": {
+        "total": 7,
+        "gt_soz": [],
+        "pred_soz": [
+          "LL2",
+          "LL3",
+          "LL4",
+          "LL5",
+          "LL6",
+          "LL7",
+          "LL8"
+        ],
+        "resected": []
+      },
+      "LM": {
+        "total": 12,
+        "gt_soz": [],
+        "pred_soz": [
+          "LM1",
+          "LM10",
+          "LM11",
+          "LM12",
+          "LM2",
+          "LM3",
+          "LM4",
+          "LM5",
+          "LM6",
+          "LM7"
+        ],
+        "resected": []
+      },
+      "RA": {
+        "total": 12,
+        "gt_soz": [],
+        "pred_soz": [
+          "RA10",
+          "RA11",
+          "RA4",
+          "RA7",
+          "RA8"
+        ],
+        "resected": []
+      },
+      "RB": {
+        "total": 9,
+        "gt_soz": [],
+        "pred_soz": [
+          "RB1",
+          "RB7",
+          "RB8"
+        ],
+        "resected": []
+      },
+      "RC": {
+        "total": 8,
+        "gt_soz": [],
+        "pred_soz": [
+          "RC1",
+          "RC3",
+          "RC6"
+        ],
+        "resected": []
+      }
+    }
+  },
+  "epileptogenic_zone_and_resection": {
+    "anatomical_target": "TEMPORAL",
+    "therapy_type": "RESECTION",
+    "surgical_outcome": "F",
+    "resected_contacts_count": 15,
+    "resected_contacts": [
+      "LA1",
+      "LA2",
+      "LA3",
+      "LA4",
+      "LA5",
+      "LA6",
+      "LA7",
+      "LB0",
+      "LB2",
+      "LE3",
+      "LE4",
+      "LE5",
+      "LE6",
+      "LE8",
+      "LE9"
+    ],
+    "predicted_soz_within_resection": [
+      "LA7",
+      "LB0",
+      "LE3",
+      "LE4",
+      "LE5",
+      "LE9"
+    ],
+    "resection_overlap_percentage": 7.5
+  },
+  "seizure_onset_timing": {
+    "has_seizure_events": true,
+    "seizure_onset_sec": 120.0,
+    "seizure_offset_sec": 239.9990234375,
+    "seizure_duration_sec": 120.0
+  }
+}

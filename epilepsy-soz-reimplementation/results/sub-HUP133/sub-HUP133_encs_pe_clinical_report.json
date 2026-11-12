@@ -1,0 +1,251 @@
+{
+  "subject_id": "sub-HUP133",
+  "task": "ictal",
+  "filename": "sub-HUP133_ses-presurgery_task-ictal_acq-seeg_run-01_ieeg.edf",
+  "seizure_onset_zone": {
+    "ground_truth_count": 5,
+    "ground_truth_contacts": [
+      "LA2",
+      "LA3",
+      "LB1",
+      "LB2",
+      "LB3"
+    ],
+    "predicted_count": 37,
+    "predicted_contacts": [
+      "LB1",
+      "LB2",
+      "LC6",
+      "LC7",
+      "LD1",
+      "LD2",
+      "LD3",
+      "LD4",
+      "LD7",
+      "LD8",
+      "LE4",
+      "LE5",
+      "LE6",
+      "LE7",
+      "LF1",
+      "LF2",
+      "LF6",
+      "LG3",
+      "LG4",
+      "LG5",
+      "LG7",
+      "LG8",
+      "LH1",
+      "LH2",
+      "LH3",
+      "LH4",
+      "LH5",
+      "LH6",
+      "LH8",
+      "RI2",
+      "RI3",
+      "RI4",
+      "RI5",
+      "RI6",
+      "RI7",
+      "RJ3",
+      "RJ8"
+    ],
+    "true_positives (correct SOZ)": [
+      "LB1",
+      "LB2"
+    ],
+    "false_positives (false alarms)": [
+      "LC6",
+      "LC7",
+      "LD1",
+      "LD2",
+      "LD3",
+      "LD4",
+      "LD7",
+      "LD8",
+      "LE4",
+      "LE5",
+      "LE6",
+      "LE7",
+      "LF1",
+      "LF2",
+      "LF6",
+      "LG3",
+      "LG4",
+      "LG5",
+      "LG7",
+      "LG8",
+      "LH1",
+      "LH2",
+      "LH3",
+      "LH4",
+      "LH5",
+      "LH6",
+      "LH8",
+      "RI2",
+      "RI3",
+      "RI4",
+      "RI5",
+      "RI6",
+      "RI7",
+      "RJ3",
+      "RJ8"
+    ],
+    "false_negatives (missed SOZ)": [
+      "LA2",
+      "LA3",
+      "LB3"
+    ],
+    "shaft_breakdown": {
+      "LA": {
+        "total": 7,
+        "gt_soz": [
+          "LA2",
+          "LA3"
+        ],
+        "pred_soz": [],
+        "resected": [
+          "LA2",
+          "LA3",
+          "LA4",
+          "LA5"
+        ]
+      },
+      "LB": {
+        "total": 8,
+        "gt_soz": [
+          "LB1",
+          "LB2",
+          "LB3"
+        ],
+        "pred_soz": [
+          "LB1",
+          "LB2"
+        ],
+        "resected": [
+          "LB1",
+          "LB2",
+          "LB3"
+        ]
+      },
+      "LC": {
+        "total": 8,
+        "gt_soz": [],
+        "pred_soz": [
+          "LC6",
+          "LC7"
+        ],
+        "resected": []
+      },
+      "LD": {
+        "total": 8,
+        "gt_soz": [],
+        "pred_soz": [
+          "LD1",
+          "LD2",
+          "LD3",
+          "LD4",
+          "LD7",
+          "LD8"
+        ],
+        "resected": []
+      },
+      "LE": {
+        "total": 8,
+        "gt_soz": [],
+        "pred_soz": [
+          "LE4",
+          "LE5",
+          "LE6",
+          "LE7"
+        ],
+        "resected": []
+      },
+      "LF": {
+        "total": 8,
+        "gt_soz": [],
+        "pred_soz": [
+          "LF1",
+          "LF2",
+          "LF6"
+        ],
+        "resected": []
+      },
+      "LG": {
+        "total": 7,
+        "gt_soz": [],
+        "pred_soz": [
+          "LG3",
+          "LG4",
+          "LG5",
+          "LG7",
+          "LG8"
+        ],
+        "resected": []
+      },
+      "LH": {
+        "total": 8,
+        "gt_soz": [],
+        "pred_soz": [
+          "LH1",
+          "LH2",
+          "LH3",
+          "LH4",
+          "LH5",
+          "LH6",
+          "LH8"
+        ],
+        "resected": []
+      },
+      "RI": {
+        "total": 8,
+        "gt_soz": [],
+        "pred_soz": [
+          "RI2",
+          "RI3",
+          "RI4",
+          "RI5",
+          "RI6",
+          "RI7"
+        ],
+        "resected": []
+      },
+      "RJ": {
+        "total": 7,
+        "gt_soz": [],
+        "pred_soz": [
+          "RJ3",
+          "RJ8"
+        ],
+        "resected": []
+      }
+    }
+  },
+  "epileptogenic_zone_and_resection": {
+    "anatomical_target": "MTL",
+    "therapy_type": "ABLATION",
+    "surgical_outcome": "F",
+    "resected_contacts_count": 7,
+    "resected_contacts": [
+      "LA2",
+      "LA3",
+      "LA4",
+      "LA5",
+      "LB1",
+      "LB2",
+      "LB3"
+    ],
+    "predicted_soz_within_resection": [
+      "LB1",
+      "LB2"
+    ],
+    "resection_overlap_percentage": 5.41
+  },
+  "seizure_onset_timing": {
+    "has_seizure_events": true,
+    "seizure_onset_sec": 120.0,
+    "seizure_offset_sec": 196.998046875,
+    "seizure_duration_sec": 77.0
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "subject_id": "sub-HUP117",
+  "task": "ictal",
+  "filename": "sub-HUP117_ses-presurgery_task-ictal_acq-seeg_run-01_ieeg.edf",
+  "seizure_onset_zone": {
+    "ground_truth_count": 7,
+    "ground_truth_contacts": [
+      "OFAL1",
+      "OFAL2",
+      "OFAL3",
+      "STG1",
+      "STG2",
+      "STG3",
+      "STG4"
+    ],
+    "predicted_count": 22,
+    "predicted_contacts": [
+      "ACCC3",
+      "AMFG-A2",
+      "AMFG-B3",
+      "AMFG-B4",
+      "CING-P2",
+      "CING-P3",
+      "CING-P4",
+      "INS-A3",
+      "INS-P2",
+      "INS-P3",
+      "INS-P4",
+      "MTG2",
+      "MTG3",
+      "MTG4",
+      "OF1",
+      "OFAL1",
+      "OFAL2",
+      "PIFG-1",
+      "PIFG-2",
+      "PIFG-3",
+      "PIFG-4",
+      "STG2"
+    ],
+    "true_positives (correct SOZ)": [
+      "OFAL1",
+      "OFAL2",
+      "STG2"
+    ],
+    "false_positives (false alarms)": [
+      "ACCC3",
+      "AMFG-A2",
+      "AMFG-B3",
+      "AMFG-B4",
+      "CING-P2",
+      "CING-P3",
+      "CING-P4",
+      "INS-A3",
+      "INS-P2",
+      "INS-P3",
+      "INS-P4",
+      "MTG2",
+      "MTG3",
+      "MTG4",
+      "OF1",
+      "PIFG-1",
+      "PIFG-2",
+      "PIFG-3",
+      "PIFG-4"
+    ],
+    "false_negatives (missed SOZ)": [
+      "OFAL3",
+      "STG1",
+      "STG3",
+      "STG4"
+    ],
+    "shaft_breakdown": {
+      "ACCC": {
+        "total": 4,
+        "gt_soz": [],
+        "pred_soz": [
+          "ACCC3"
+        ],
+        "resected": []
+      },
+      "AMFGA": {
+        "total": 3,
+        "gt_soz": [],
+        "pred_soz": [
+          "AMFG-A2"
+        ],
+        "resected": []
+      },
+      "AMFGB": {
+        "total": 4,
+        "gt_soz": [],
+        "pred_soz": [
+          "AMFG-B3",
+          "AMFG-B4"
+        ],
+        "resected": []
+      },
+      "CINGA": {
+        "total": 1,
+        "gt_soz": [],
+        "pred_soz": [],
+        "resected": []
+      },
+      "CINGP": {
+        "total": 4,
+        "gt_soz": [],
+        "pred_soz": [
+          "CING-P2",
+          "CING-P3",
+          "CING-P4"
+        ],
+        "resected": []
+      },
+      "FZ": {
+        "total": 1,
+        "gt_soz": [],
+        "pred_soz": [],
+        "resected": []
+      },
+      "HIPP": {
+        "total": 4,
+        "gt_soz": [],
+        "pred_soz": [],
+        "resected": [
+          "HIPP1",
+          "HIPP2",
+          "HIPP3"
+        ]
+      },
+      "INSA": {
+        "total": 4,
+        "gt_soz": [],
+        "pred_soz": [
+          "INS-A3"
+        ],
+        "resected": []
+      },
+      "INSP": {
+        "total": 4,
+        "gt_soz": [],
+        "pred_soz": [
+          "INS-P2",
+          "INS-P3",
+          "INS-P4"
+        ],
+        "resected": []
+      },
+      "MTG": {
+        "total": 4,
+        "gt_soz": [],
+        "pred_soz": [
+          "MTG2",
+          "MTG3",
+          "MTG4"
+        ],
+        "resected": []
+      },
+      "OF": {
+        "total": 4,
+        "gt_soz": [],
+        "pred_soz": [
+          "OF1"
+        ],
+        "resected": []
+      },
+      "OFAL": {
+        "total": 4,
+        "gt_soz": [
+          "OFAL1",
+          "OFAL2",
+          "OFAL3"
+        ],
+        "pred_soz": [
+          "OFAL1",
+          "OFAL2"
+        ],
+        "resected": []
+      },
+      "PIFG": {
+        "total": 4,
+        "gt_soz": [],
+        "pred_soz": [
+          "PIFG-1",
+          "PIFG-2",
+          "PIFG-3",
+          "PIFG-4"
+        ],
+        "resected": []
+      },
+      "STG": {
+        "total": 4,
+        "gt_soz": [
+          "STG1",
+          "STG2",
+          "STG3",
+          "STG4"
+        ],
+        "pred_soz": [
+          "STG2"
+        ],
+        "resected": []
+      }
+    }
+  },
+  "epileptogenic_zone_and_resection": {
+    "anatomical_target": "TEMPORAL",
+    "therapy_type": "RESECTION",
+    "surgical_outcome": "Seizure-Free (Success)",
+    "resected_contacts_count": 3,
+    "resected_contacts": [
+      "HIPP1",
+      "HIPP2",
+      "HIPP3"
+    ],
+    "predicted_soz_within_resection": [],
+    "resection_overlap_percentage": 0.0
+  },
+  "seizure_onset_timing": {
+    "has_seizure_events": true,
+    "seizure_onset_sec": 120.0,
+    "seizure_offset_sec": 255.998,
+    "seizure_duration_sec": 136.0
+  }
+}
