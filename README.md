@@ -109,7 +109,8 @@ localization_of_SOZ/
 ├── README.md                             # Comprehensive project documentation
 ├── .gitignore                            # Excludes datasets, bytecode, and temp files
 ├── Report.pdf                            # 34-page Minor Project Report (NIT Raipur)
-├── presentation.pptx                     # 19-slide Final Presentation Deck
+├── presentation_final.pptx               # 19-slide Final Presentation Deck (PowerPoint)
+├── presentation_final.key                # 19-slide Final Presentation Deck (Apple Keynote)
 └── epilepsy-soz-reimplementation/         # Modular Python codebase
     ├── config.py                         # Centralized hyperparameter configuration
     ├── main.py                           # CLI entrypoint for inspection, single patient & cohort
@@ -182,7 +183,7 @@ python main.py --all
 ## 📑 Core Project Deliverables
 
 * 📄 **[Report.pdf](Report.pdf)**: Complete 34-Page Minor Project Report containing formal mathematical formulations (Cauchy principal value Hilbert transforms, cross-spectral density, proportional adjacency binarization, Takens delay embedding, Vietoris-Rips complexes, persistence diagrams, Bi-GRU recurrence, dynamic focal loss), clinical demographics, windowing benchmarks, and ablation studies.
-* 📊 **[presentation.pptx](presentation.pptx)**: 19-Slide Final Defense Presentation Deck featuring the dual-stream architecture pipeline, 4 core methodological pillars, step-by-step execution algorithm, textbook evaluation metric cards, baseline comparisons, and master ablation benchmarks.
+* 📊 **[presentation_final.pptx](presentation_final.pptx)** / **[presentation_final.key](presentation_final.key)**: 19-Slide Final Defense Presentation Deck featuring the dual-stream architecture pipeline, 4 core methodological pillars, step-by-step execution algorithm, textbook evaluation metric cards, baseline comparisons, and master ablation benchmarks.
 
 ---
 
